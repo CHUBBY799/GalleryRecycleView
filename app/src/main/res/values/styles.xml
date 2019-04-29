@@ -1,0 +1,58 @@
+<resources>
+
+
+    <style name="AppThemeEx" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/trans</item>
+        <!--<item name="android:windowEnterTransition">@transition/change_image</item>-->
+        <!--<item name="android:windowExitTransition">@transition/change_image</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <!--<item name="android:windowActivityTransitions">true</item>-->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="android:windowActivityTransitions">true</item>-->
+        <item name="android:windowBackground">@color/trans</item>
+        <!--<item name="android:windowEnterTransition">@transition/change_image</item>-->
+        <!--<item name="android:windowExitTransition">@transition/change_image</item>-->
+
+
+        <!--<item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>-->
+        <!--<item name="toolbarNavigationButtonStyle">-->
+            <!--@style/Widget.AppCompat.Toolbar.Button.Navigation-->
+        <!--</item>-->
+        <!--<item name="actionModeBackground">@color/colorPrimaryDark</item>-->
+        <!--<item name="actionModeCloseDrawable">@drawable/ic_close_black</item>-->
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <!--<item name="actionOverflowButtonStyle">@style/ActionButton.Overflow</item>-->
+    </style>
+
+    <style name="GalleryActivityTheme" parent="AppTheme">
+
+        <!--config status bar and navigation bar transparent
+            Note: if set windowTranslucentNavigation as true
+            content can be watched under navigation bar
+            -->
+        <!--        <item name="android:windowTranslucentStatus">false</item>
+                <item name="android:windowTranslucentNavigation">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/ic_start_page_logo</item>-->
+    </style>
+
+
+</resources>
